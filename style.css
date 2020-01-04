@@ -1,0 +1,139 @@
+.wrapper {}
+
+html, body {
+
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #202020;
+  color: #F9FAF9;
+  font-family: verdana;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+  max-width: 1000px;
+  min-width: 600px;
+  text-align: justify;
+  padding: 40px 0;
+  margin-left: auto;
+  margin-right: auto;
+  flex: 1 0 auto;
+  line-height: 150%;
+
+}
+
+.nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #111014;
+  box-shadow: 0 1px 10px 0 #000000;
+  text-align: center;
+  border-bottom: 1px solid #1D1D1D;
+
+}
+
+ol {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+
+}
+
+ol a {
+  display: block;
+  text-decoration: none;
+  color: #F9FAF9;
+  font-size: 18px;
+
+}
+
+ol > li {
+  float: left;
+  width: 150px;
+  height: 40px;
+  line-height: 250%;
+  margin-bottom: -3px;
+
+
+
+}
+
+
+ol > li:hover > a {
+  background-color: #1D1D1D;
+  transition: 0.3s;
+  z-index: 100;
+
+
+
+
+}
+
+
+.logo {
+  display: inline-block;
+  transform: translate(-10%, -10%);
+
+
+}
+
+.wspolpraca {
+  background-color: #C5261D;
+}
+
+.wspolpraca:hover {
+  background-color: #d34034;
+}
+
+.footer {
+  background-color: #111014;
+  text-align: center;
+  flex-shrink: 1;
+  padding: 20px;
+
+}
+
+ol > li > ul {
+display: none;
+list-style-type: none;
+margin: 0;
+padding: 0;
+z-index: 90;
+}
+
+ol > li > ul > li {
+  position: relative;
+
+  background-color: #1D1D1D;
+  border-top: 1px solid #111014;
+  height: 42px;
+z-index: 90;
+}
+
+
+ol > li:hover > ul {
+  display: block;
+      box-shadow: 10px 0.1em 10px 0 #000000;
+      z-index: 90;
+}
+
+ol > li > ul > li:hover {
+  background-color: #111014
+}
+
+ol > li > ul > li a {
+  margin-top: 1px;
+
+
+}
